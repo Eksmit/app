@@ -7,7 +7,7 @@ import { inspectAttr } from 'kimi-plugin-inspect-react'
 export default defineConfig({
   // Для GitHub Pages: замените '/3d-print-calculator/' на имя вашего репозитория
   // Для локальной разработки используйте './'
-  base: './',
+  base: '/app/',
   plugins: [inspectAttr(), react()],
   resolve: {
     alias: {
